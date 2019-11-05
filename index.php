@@ -19,11 +19,7 @@
 |
 */
 
-<<<<<<< HEAD
 require __DIR__.'/bootstrap/autoload.php';
-=======
-require __DIR__.'/../boostrap/bootstrap/autoload.php';
->>>>>>> 4529cb4b07bd7fb8d133de33aa4225ae473c062b
 
 /*
 |--------------------------------------------------------------------------
