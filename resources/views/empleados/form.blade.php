@@ -29,7 +29,7 @@
 <div class="form-group"> 
 
 <label for="correo" class="control-label" >{{'Correo Electronico'}}</label>
-<input type="email"  class="form-control  {{$errors->has('correo')?'is-invalid':''}} " name="correo" id="correo" value="{{isset($empleado->sapellido)?$empleado->sapellido:old('correo')}}">
+<input type="email"  class="form-control  {{$errors->has('correo')?'is-invalid':''}} " name="correo" id="correo" value="{{isset($empleado->correo)?$empleado->correo:old('correo')}}">
 {!! $errors->first('correo','<div class="invalid-feedback">:message</div>')!!}
 </div>
 

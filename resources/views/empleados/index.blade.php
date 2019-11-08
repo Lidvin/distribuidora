@@ -13,7 +13,7 @@
 @endif
 
 <a href="{{url ('empleados/create')}}" class="btn btn-success" > Agregar Empleado</a>
-<br>
+<a href="{{url ('empleados/show')}}" class="btn btn-success" > WebService</a>
 <br>
 
 @if (session('status'))

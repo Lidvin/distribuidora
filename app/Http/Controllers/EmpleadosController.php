@@ -81,7 +81,7 @@ return redirect('empleados')->with ('Mensaje','Empleado agregado correctamente')
      */
     public function show(empleados $empleados)
     {
-        //
+     return view('empleados.show');
     }
 
     /**
@@ -98,6 +98,9 @@ return redirect('empleados')->with ('Mensaje','Empleado agregado correctamente')
 
 
     }
+
+    
+
 
     /**
      * Update the specified resource in storage.
@@ -155,7 +158,8 @@ return redirect('empleados')->with ('Mensaje','Empleado modificado correctamente
      * @param  \App\empleados  $empleados
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    
+     public function destroy($id)
     {
         //
         $empleado = Empleados::findOrFail($id); 
@@ -172,4 +176,7 @@ return redirect('empleados')->with ('Mensaje','Empleado modificado correctamente
 
 
     }
+
+
+    
 }
